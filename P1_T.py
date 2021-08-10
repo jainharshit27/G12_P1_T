@@ -6,8 +6,8 @@ pygame.init()
 # creating game window and title
 screen = pygame.display.set_mode((300,300))
 
-SAFRON=(255, 153, 51)
-safron_rect=pygame.Rect(50,100,200,30)
+SAFFRON=(255, 153, 51)
+saffron_rect=pygame.Rect(50,100,200,30)
 
 WHITE=(255,255,255)
 # Create White Rectangle
@@ -23,7 +23,7 @@ while True:
             pygame.quit()
             sys.exit()
     
-    pygame.draw.rect(screen,SAFRON,safron_rect)
+    pygame.draw.rect(screen,SAFFRON,saffron_rect)
     # Draw White Rectangle
     # Draw Green Rectangle
     
